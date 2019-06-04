@@ -21,11 +21,16 @@
     <div class="navigation__background">&nbsp;</div>
     <nav class="navigation__nav">
         <ul class="navigation__list">
-            <li class="navigation__item"><a href="#" class="navigation__link"><span class="navigation__item-number">01</span>About Natours</a></li>
-            <li class="navigation__item"><a href="#" class="navigation__link"><span class="navigation__item-number">02</span>Your Benefits</a></li>
-            <li class="navigation__item"><a href="#" class="navigation__link"><span class="navigation__item-number">03</span>Popular Tours</a></li>
-            <li class="navigation__item"><a href="#" class="navigation__link"><span class="navigation__item-number">04</span>Stories</a></li>
-            <li class="navigation__item"><a href="#" class="navigation__link"><span class="navigation__item-number">05</span>Book now</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><span
+                    class="navigation__item-number">01</span>About Natours</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><span
+                    class="navigation__item-number">02</span>Your Benefits</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><span
+                    class="navigation__item-number">03</span>Popular Tours</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><span
+                    class="navigation__item-number">04</span>Stories</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><span
+                    class="navigation__item-number">05</span>Book now</a></li>
         </ul>
     </nav>
 </div>
@@ -124,7 +129,7 @@
 
     <section class="section-tours">
         <div class="u-center-text u-margin-bottom-big">
-            <h2 class="heading-secondary">Most popular tours</h2>
+            <h2 class="heading-secondary" id="section-tours">Most popular tours</h2>
         </div>
 
         <div class="row">
@@ -155,7 +160,7 @@
                                 <p class="card__price-only">Only</p>
                                 <p class="card__price-value">$297</p>
                             </div>
-                            <a href="#" class="btn btn--white">Book now!</a>
+                            <a href="#modal" class="btn btn--white">Book now!</a>
                         </div>
                     </div>
                 </div>
@@ -188,7 +193,7 @@
                                 <p class="card__price-only">Only</p>
                                 <p class="card__price-value">$497</p>
                             </div>
-                            <a href="#" class="btn btn--white">Book now!</a>
+                            <a href="#modal" class="btn btn--white">Book now!</a>
                         </div>
                     </div>
                 </div>
@@ -221,7 +226,7 @@
                                 <p class="card__price-only">Only</p>
                                 <p class="card__price-value">$897</p>
                             </div>
-                            <a href="#" class="btn btn--white">Book now!</a>
+                            <a href="#modal" class="btn btn--white">Book now!</a>
                         </div>
                     </div>
                 </div>
@@ -352,6 +357,28 @@
         </div>
     </div>
 </footer>
+<div class="modal" id="modal">
+    <div class="modal__content">
+        <div class="modal__left">
+            <img src="img/nat-8.jpg" alt="Tour photo" class="modal__img">
+            <img src="img/nat-9.jpg" alt="Tour photo" class="modal__img">
+        </div>
+        <div class="modal__right">
+            <a href="#section-tours" class="modal__close">&times;</a>
+            <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+            <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read this terms before booking</h3>
+            <p class="modal__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Faucibus pulvinar elementum integer enim neque. Ultrices gravida dictum fusce ut
+                placerat orci nulla. Senectus et netus et malesuada fames ac. A iaculis at erat pellentesque adipiscing
+                commodo elit at. Dolor sit amet consectetur adipiscing elit ut aliquam purus. Nunc pulvinar sapien et
+                ligula ullamcorper malesuada proin libero nunc. Nunc lobortis mattis aliquam faucibus purus in. Porta
+                non pulvinar neque laoreet suspendisse interdum consectetur libero.
+            </p>
+            <a href="#" class="btn btn--green">Book now</a>
+        </div>
+    </div>
+</div>
 
 <!--<section class="grid-test">-->
 <!--    <div class="row">-->
