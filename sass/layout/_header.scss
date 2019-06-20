@@ -5,9 +5,18 @@
                   rgba($color-primary-light, 0.8),
                   rgba($color-primary-dark, 0.8)
   ),
-  url(../img/hero.jpg) top/cover no-repeat;
+  url(../img/hero-small.jpg) top/cover no-repeat;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
+
+  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
+    background: linear-gradient(
+                    to right bottom,
+                    rgba($color-primary-light, 0.8),
+                    rgba($color-primary-dark, 0.8)
+    ),
+    url(../img/hero.jpg) top/cover no-repeat;
+  }
 
   @include respond(tab-port) {
     height: 85vh;
